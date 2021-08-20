@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRYPTO-INFO</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Georama&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="header_banner">
+      <div id="navdiv">
+        <div class="navbar">
+          <div class="navbar-logo nav">
+            <img
+              id="logo"
+              src="https://cdn.glitch.com/3c27c6bc-9ba3-4408-9508-17174e65a450%2Fthumbnails%2Flogo.png?1629139058695"
+              height="100px"
+            />
+          </div>
+          <div class="navbar-toggle nav">
+            <img
+              src="https://cdn.glitch.com/3c27c6bc-9ba3-4408-9508-17174e65a450%2Fthumbnails%2Ficon.png?1629139161347"
+              width="30px"
+            />
+          </div>
+          <div class="navbar-links nav">
+            <a href="index.html"><b>Home</b></a>
+          </div>
+          <div class="navbar-links nav">
+            <a href="users.html">Personal</a>
+          </div>
+          <div class="navbar-links nav">
+            <a href="articles.html">Articles</a>
+          </div>
+          <div class="navbar-links nav">  
+            <a href="about.html">About us</a>
+          </div>
+          <div class="navbar-links nav">
+            <a href="contact.html">Contact</a>
+            </div>
+          <div class="navbar-links nav">
+            <a href="users.html">Login</a>
+          </div>
+        </div>
+      </div>
+      <h1 id="banner"></h1>
+    </div>
+    <div id="about_crypto">
+      <br />
+      <h1 class="header">
+        About Cryptocurrency
+      </h1>
+      <p>
+        Cryptocurrency is digital currency. It can be exchanged online for
+        various goods and services. This virtual currency is secured by
+        cryptography, which is where cryptocurrency gets its name. They work
+        through blockchain, a highly secure database that keeps record of
+        transactions in the form of a chain.<br /><br />There are over 10,000
+        publicly traded cryptocurrencies, and as of August 2021, the total value
+        of those cryptocurrencies are more than $1.8 trillion!<br /><br />"Should
+        I start using and trading crypto?" you may be asking. Well, let's look
+        at some of the positives and negatives.
+      </p>
+      <div id="description">
+        <div id="description1">
+          <p class="description">
+            Pros<br />
+            <li>
+              Cryptocurrency trades typically operate on a peer-to-peer
+              networking structure. Traditional business deals usually involve
+              paperwork, agents, representatives, commissions, and just overall
+              confusion. Crypto transactions eliminate that by "cutting out the
+              middle men".
+            </li>
+            <br />
+            <li>
+              Unlike traditional bank/credit transactions, arrangements using
+              cryptocurrency often involve little to no transaction fees. This
+              is beneficial for heavy shoppers, as fees can definitely stack up.
+            </li>
+            <br />
+            <li>
+              International trade is made less complicated through the use of
+              cryptocurrencies. Not only is crypto not currently recognized as
+              legal tender, but the peer-to-peer structure of the trade makes
+              overseas transfers and transactions much less overwhelming for the
+              users.
+            </li>
+          </p>
+        </div>
+        <div id="description2">
+          <p class="description">
+            Cons<br />
+            <li>
+              The mining done for cryptocurrency consumes a large amount of
+              energy, which heavily impacts the environment. Bitcoin mining
+              alone produces over 39 megatons of CO<sub>2</sub> annually, and
+              was estimated to raise global temperatures by 2&deg;C (around
+              35&deg;F) in the next 20 years.
+            </li>
+            <br />
+            <li>
+              Because cryptocurrency is not considered legal tender, the number
+              of businesses (both online and real-life) at which they're
+              accepted is still very limited, despite its growing acceptance
+              within the past few years.
+            </li>
+            <br />
+            <li>
+              Cryptocurrencies are assets of private sectors (some more private
+              than others) with no official regulation or governmental oversight
+              on these assets. Some may use this to their advantage by
+              exploiting or scamming unsuspecting users.
+            </li>
+          </p>
+        </div>
+      </div>
+      <br />
+      <p>
+        Use this information (and the plethora of information throughout this
+        website) to make the decision. Enjoy!
+      </p>
+    </div>
+    <br><br>
+       <div id="market_head" style="background-color: white; ">
+
+        <h1 id="market_header" style="font-size: 35px;">Current Market</h1>
+
+        <div id="marke_table">
+            <h2 style="font-size: 30px; text-align: center;">Top Cryptocurrencies Prices by Market Cap</h2>
+            <table id="table" style="text-align: center;">
+                <thead>
+                    <th style="text-align: center;">Rank</th>
+                    <th style="text-align: center;">Symbol</th>
+                    <th style="text-align: center;">Name</th>
+                    <th style="text-align: center;">Price</th>
+                    <th style="text-align: center;">Market Cap</th>
+                </thead>
+                <tbody id="table_body"></tbody>
+            </table>
+        </div>
+    </div>
+    <div id="bit" style="margin: 50px; margin-left: 30%;">
+        <h2 style="margin-left: 25%;">Bitcoin</h2>
+        <div class="nomics-ticker-widget" data-name="Bitcoin" data-base="BTC" data-quote="USD"></div>
+        <script src="https://widget.nomics.com/embed.js"></script>
+        <div style="display: block;">
+            <h1 style="text-align: center;">Bitcoin converter</h1>
+            <script src="https://widgets.coingecko.com/coingecko-coin-converter-widget.js"></script>
+            <coingecko-coin-converter-widget coin-id="bitcoin" currency="usd" background-color="#ffffff" font-color="#4c4c4c" locale="en"></coingecko-coin-converter-widget>
+        </div>
+    </div>
+    <div id="eth" style="margin: 50px; margin-left: 30%;">
+        <h2 style="margin-left: 25%;">Etherium</h2>
+        <div class="nomics-ticker-widget" data-name="Ethereum" data-base="ETH" data-quote="USD"></div>
+        <script src="https://widget.nomics.com/embed.js"></script>
+       <div style="display: block;">
+            <h1 style="text-align: center;">Ethereum converter</h1>
+            <script src="https://widgets.coingecko.com/coingecko-coin-converter-widget.js"></script>
+            <coingecko-coin-converter-widget coin-id="ethereum" currency="usd" background-color="#ffffff" font-color="#4c4c4c" locale="en"></coingecko-coin-converter-widget>
+        </div>
+    </div>
+    <div id="bin" style="margin: 50px; margin-left: 30%;">
+        <h2 style="margin-left: 25%;">Binance Coin</h2>
+        <div class="nomics-ticker-widget" data-name="Binance Coin" data-base="BNB" data-quote="USD"></div>
+        <script src="https://widget.nomics.com/embed.js"></script>
+    </div>
+
+    <div id="cardano" style="margin: 50px; margin-left: 30%;">
+        <h2 style="margin-left: 25%;">Cardano</h2>
+        <div class="nomics-ticker-widget" data-name="Cardano" data-base="ADA" data-quote="USD"></div>
+        <script src="https://widget.nomics.com/embed.js"></script>
+    </div>
+
+    <div id="tether" style="margin: 50px; margin-left: 30%;">
+        <h2 style="margin-left: 25%;">Tether</h2>
+        <div class="nomics-ticker-widget" data-name="Tether" data-base="USDT" data-quote="USD"></div>
+        <script src="https://widget.nomics.com/embed.js"></script>
+    </div>
+
+    <div id="xrp" style="margin: 50px; margin-left: 30%;">
+        <h2 style="margin-left: 25%;">XRP</h2>
+        <div class="nomics-ticker-widget" data-name="Ripple" data-base="XRP" data-quote="USD"></div>
+        <script src="https://widget.nomics.com/embed.js"></script>
+    </div>
+    <div id="doge" style="margin: 50px; margin-left: 30%;">
+        <h2 style="margin-left: 25%;">Dogecoin</h2>
+        <div class="nomics-ticker-widget" data-name="Dogecoin" data-base="DOGE" data-quote="USD"></div>
+        <script src="https://widget.nomics.com/embed.js"></script>
+    </div>
+
+    <div id="usd" style="margin: 50px; margin-left: 30%;">
+        <h2 style="margin-left: 25%;">USD coin</h2>
+        <div class="nomics-ticker-widget" data-name="USD Coin" data-base="USDC" data-quote="USD"></div>
+        <script src="https://widget.nomics.com/embed.js"></script>
+    </div>
+
+    <div id="polkadot" style="margin: 50px; margin-left: 30%;">
+        <h2 style="margin-left: 25%;">Polkadot</h2>
+        <div class="nomics-ticker-widget" data-name="Polkadot" data-base="DOT" data-quote="USD"></div>
+        <script src="https://widget.nomics.com/embed.js"></script>
+    </div>
+
+    <div id="solana" style="margin: 50px; margin-left: 30%;">
+        <h2 style="margin-left: 25%;">Solana</h2>
+        <div class="nomics-ticker-widget" data-name="Solana" data-base="SOL" data-quote="USD"></div>
+        <script src="https://widget.nomics.com/embed.js"></script>
+    </div>
+
+    <div id="coin_compare" style="background:white; padding-top: 10px;">
+        <h2 style="text-align: center;"> Cryptocurrencies Comparison by Prices</h2>
+        <script src="https://widgets.coingecko.com/coingecko-coin-compare-chart-widget.js"></script>
+        <coingecko-coin-compare-chart-widget coin-ids="bitcoin,ethereum,ripple,binancecoin,dogecoin,cardano" currency="usd" locale="en" type="price"></coingecko-coin-compare-chart-widget>
+    </div>
+    
+    <div id="footer" style="margin-top: 40px;">
+        <div id="container">
+            <img src="https://cdn.glitch.com/3c27c6bc-9ba3-4408-9508-17174e65a450%2Fthumbnails%2Flogo.png?1629139058695" width="60px" height="60px">
+            <P style="margin-left: 15px; font-size: 20px">Created by Miles, Mohammed, Na'im and Ridley</P>
+            <div id="social_media_container">
+                <h3 style="margin-left: 40px;">Our Social media</h3>
+                <div id="social_media">
+                    <a href="#"></a><img src="https://cdn.glitch.com/3c27c6bc-9ba3-4408-9508-17174e65a450%2Fthumbnails%2Ffacebook-logo-2019.png?1629335208261" width="40px"></a>
+                    <a href="#" target="_blank"><img src="https://cdn.glitch.com/3c27c6bc-9ba3-4408-9508-17174e65a450%2Fthumbnails%2Ftwitter2.png?1629335218321" width="50px" style= "margin-left:5px;"></a>
+                    <a href="#" target="_blank"><img src="https://cdn.glitch.com/3c27c6bc-9ba3-4408-9508-17174e65a450%2Fthumbnails%2Finstagram-logos-png-images-free-download-2.png?1629335212842" width="40px"></a>
+                </div>
+            </div>
+
+        </div>
+        <h2>© 2021 Crypto-info | All Rights Reserved</h2>
+    </div>
+  </body>
+</html>
